@@ -18,3 +18,9 @@
 - `less`        
 - `echo`        -> display a line of text
 - `wc`          -> print newline, word, and byte counts for each file
+- `sort`        -> sort lines of text files
+- `uniq`        -> report or omit repeated lines
+- `diff`        -> compare files line by line
+- `find`        -> search for files in a directory hierarchy
+- `grep`        -> print lines that match patterns
+- `du`          -> estimate file space usage
