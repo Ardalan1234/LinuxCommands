@@ -1,0 +1,23 @@
+# linux useful commands
+
+- `man`
+- `clear`
+- `pwd` 
+- `ls` `-a` `-l` 
+- `cd`
+- `mkdir` `-p`
+- `touch`
+- `rmdir`
+- `rm` `-r` `-i`
+- `open`
+- `mv`
+- `cp` `-r`
+- `head` `-n`
+- `tail` `-n`
+- `>` `>>`
+- `cat`
+- `less`
+- `echo`
+- `wc`
+- `|`
+- `sort`
