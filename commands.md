@@ -1,22 +1,20 @@
 # linux useful commands
 
 - `man`
-- `clear`       > clear the terminal screen        
-- `pwd`         > print name of current/working directory
-- `ls`          > list directory contents
-- `cd`          > Change working directory
-- `mkdir`       > make directories
-- `touch`       > change file timestamps
-- `rmdir`       > remove empty directories
-- `rm`          > remove files or directories
+- `clear`       -> clear the terminal screen        
+- `pwd`         -> print name of current/working directory
+- `ls`          -> list directory contents
+- `cd`          -> Change working directory
+- `mkdir`       -> make directories
+- `touch`       -> change file timestamps
+- `rmdir`       -> remove empty directories
+- `rm`          -> remove files or directories
 - `open`      
-- `mv`          > move (rename) files
-- `cp`          > copy files and directories
-- `head`        > output the first part of files
-- `tail`        > output the last part of files
-- `>` and `>>`  > 
-- `cat`         > concatenate files and print on the standard output
+- `mv`          -> move (rename) files
+- `cp`          -> copy files and directories
+- `head`        -> output the first part of files
+- `tail`        -> output the last part of files
+- `cat`         -> concatenate files and print on the standard output
 - `less`        
-- `echo`        > display a line of text
-- `wc`          > print newline, word, and byte counts for each file
-- `|`
+- `echo`        -> display a line of text
+- `wc`          -> print newline, word, and byte counts for each file
