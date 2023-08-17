@@ -24,3 +24,13 @@
 - `find`        -> search for files in a directory hierarchy
 - `grep`        -> print lines that match patterns
 - `du`          -> estimate file space usage
+- `history`     -> Manipulate the history list
+- `ps`          -> report a snapshot of the current processes
+- `top`         -> display Linux processes
+- `kill`        -> send a signal to a process
+- `killall`     -> kill processes by name
+- `jobs`, `fg`, `bg`
+- `gzip`        -> compress or expand files
+- `gunzip`      -> compress or expand files
+- `tar`         -> an archiving utility
+- `alias`
