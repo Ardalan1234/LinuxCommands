@@ -34,3 +34,11 @@
 - `gunzip`      -> compress or expand files
 - `tar`         -> an archiving utility
 - `alias`
+- `xargs`       -> build and execute command lines from standard input
+- `ln`          -> make links between files
+- `who`         -> show who is logged on
+- `su`          -> run a command with substitute user and group ID
+- `sudo`        -> execute a command as another user
+- `passwd`      -> change user password
+- `chown`       -> change file owner and group
+- `chmod`       -> change file mode bits
