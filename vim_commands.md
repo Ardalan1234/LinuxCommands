@@ -1,0 +1,54 @@
+# VIM
+
+- `:q`              -> quit
+- `i`               -> insert mode
+- `:w`              -> write changes
+- `:q!`             -> quit override
+- `:wq`             -> write & quit
+- `a`               -> append text
+- `I`               -> insert before line
+- `A`               -> append after line
+- `o`               -> new line below
+- `O`               -> new line above
+- `w`               -> jump to next word
+- `b`               -> jump to previous word
+- `r`               -> replace letter
+- `R`               -> replace mode
+- `cw`              -> change word
+- `3w`              -> jump three words
+- `c5w`             -> change five words 
+- `7<up arrow key>` -> move seven lines up
+- `C`               -> delete rest of line
+- `dw`              -> delete word
+- `D`               -> delete rest of line
+- `d2w`             -> delete two words
+- `dd`              -> delete line
+- `cc`              -> change line
+- `u`               -> undo
+- `ctrl+R`          -> redo
+- `ciw`             -> change inner word
+- `diw`             -> delete inner word
+- `%`               -> jump to bracket
+- `c%`              -> change until bracket
+- `d%`              -> delete until bracket
+- `gg`              -> begginning of file
+- `G`               -> end of file
+- `dgg`             -> delete until beginning of line
+- `dG`              -> delete until end of file
+- `:12`             -> go to line 12
+- `0`               -> beginning of line
+- `$`               -> end of line
+- `v`               -> visual mode
+- `y`               -> copy
+- `yy`              -> copy line
+- `p`               -> paste
+- `shift+v`         -> visual line
+- `.`               -> repeat last operation
+- `zz`              -> center selected line
+- `>`               -> shift right
+- `<`               -> shift left
+- `/word`               -> search fo word
+- `n`               -> next occurrence
+- `N`               -> previous occurrence
+- `:s/old/new/g`    -> replace
+- `:%s/old/new/g`   -> replace everywhere

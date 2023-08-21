@@ -42,3 +42,4 @@
 - `passwd`      -> change user password
 - `chown`       -> change file owner and group
 - `chmod`       -> change file mode bits
+- `stat`        -> display file or file system status
