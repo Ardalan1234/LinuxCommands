@@ -54,4 +54,22 @@ specify a default value for a column when no explicit value is provided during a
 uniquely identify each row in a table. It ensures that the values in the specified column or columns are unique and not null:
 - `ALTER TABLE table_name ADD CONSTRAINT constraint_name PRIMARY KEY (column1, column2, ...);`
 
+enforce specfic conditions on the values entered into a column:
+- `ALTER TABLE table_name ADD CONSTRAINT constraint_name CHECK (condition);`
+
+A FOREIGN KEY is a constraint in  relational database that establishes a link between two tables based on a specified column or set of columns:
+
+- `ALTER TABLE table_name ADD CONSTRAINT fk_name FOREIGN KEY (column_name) REFERENCES refrenced_table_name(referenced_column_name);`
+
+drop foreign key:
+- ALTER TABLE table_name DROP FOREIGN KEY foreign_key_name;`
+
+combine rows from two or more tables based on a related column between them:
+- `SELECT column1, column2, ... FROM table1 INNER JOIN table2 ON table1.column = table2.column;`
+- `SELECT column1, column2, ...  FROM table1 INNER JOIN table2 ON table1.column = table2.column;`
+- `SELECT column1, column2, ... FROM table1 INNER JOIN table2 ON table1.column = table2.column;`
+
+sort the rows returned by a SELECT statement based on one or more columns:
+- `SELECT column1, column2, ... FROM table ORDER BY column1, column2, ... [ASC | DESC];`
+
 
