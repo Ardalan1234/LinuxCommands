@@ -62,7 +62,7 @@ A FOREIGN KEY is a constraint in  relational database that establishes a link be
 - `ALTER TABLE table_name ADD CONSTRAINT fk_name FOREIGN KEY (column_name) REFERENCES refrenced_table_name(referenced_column_name);`
 
 drop foreign key:
-- ALTER TABLE table_name DROP FOREIGN KEY foreign_key_name;`
+- `ALTER TABLE table_name DROP FOREIGN KEY foreign_key_name;`
 
 combine rows from two or more tables based on a related column between them:
 - `SELECT column1, column2, ... FROM table1 INNER JOIN table2 ON table1.column = table2.column;`
