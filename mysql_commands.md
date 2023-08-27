@@ -59,7 +59,7 @@ enforce specfic conditions on the values entered into a column:
 
 A FOREIGN KEY is a constraint in  relational database that establishes a link between two tables based on a specified column or set of columns:
 
-- `ALTER TABLE table_name ADD CONSTRAINT fk_name FOREIGN KEY (column_name) REFERENCES refrenced_table_name(referenced_column_name);`
+- `ALTER TABLE table_name ADD CONSTRAINT foreign_key_name FOREIGN KEY (column_name) REFERENCES refrenced_table_name(referenced_column_name);`
 
 drop foreign key:
 - `ALTER TABLE table_name DROP FOREIGN KEY foreign_key_name;`
@@ -72,4 +72,20 @@ combine rows from two or more tables based on a related column between them:
 sort the rows returned by a SELECT statement based on one or more columns:
 - `SELECT column1, column2, ... FROM table ORDER BY column1, column2, ... [ASC | DESC];`
 
+restrict the number of rows returned by a query:
+- `SELECT column1, column2, ... FROM table LIMIT [number_of_rows] [OFFSET offset_value];`
 
+combine the result sets of two or more SELECT statements into a single result set or if you want to include all rows, including duplicates, use the UNION ALL operator instead of UNION:
+- `SELECT column1, column2, ... FROM table1 UNION SELECT column1, column2, ... FROM table2;`
+
+combine rows from the same table based on a related condition or relationship within the table:
+- `SELECT a.column, a.column, ..., b.column, b.column. ... FROM table AS a INNER JOIN table AS b ON a.column = b.column;`
+
+a view is a virtual table that is derived from the result of a query:
+- `CREATE VIEW view_name AS SELECT column1, column2, ... FROM table WHERE condition;`
+
+an index is a data structure that improves the speed of data retrieval operations on database tables:
+- `CREATE INDEX index_name ON table_name (column1, column2, ...);`
+
+group rows in a result set based on one or more columns:
+- `SELECT column1, aggregate_function(column2) FROM table GROUP BY column1 HAVING condition;`
