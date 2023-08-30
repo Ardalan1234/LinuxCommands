@@ -89,3 +89,13 @@ an index is a data structure that improves the speed of data retrieval operation
 
 group rows in a result set based on one or more columns:
 - `SELECT column1, aggregate_function(column2) FROM table GROUP BY column1 HAVING condition;`
+
+the ROLLUP modifier is used in conjunction with the GROUP BY clause to generate subtotals and grand totals in result sets:
+- `SELECT column1, column2, ..., aggregate_function(column) FROM table GROUP BY column1, column2, ..., ROLLUP (column);`
+
+on delete:
+- `ALTER TABLE Child ADD CONSTRAINT constraint_name FOREIGN KEY (parent_id) REFERENCES Parent (id) ON DELETE CASCADE;`
+
+- `ALTER TABLE Child ADD CONSTRAINT constraint_name FOREIGN KEY (parent_id) REFERENCES Parent (id) ON DELETE SET NULL;`
+
+
