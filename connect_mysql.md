@@ -21,6 +21,7 @@ now you can open mysql using this command:
 
 changing the default port:
 - `sudo nano /etc/mysql/my.cnf`
+
 add these lines:
 - [mysqld]
 - port = 33069
