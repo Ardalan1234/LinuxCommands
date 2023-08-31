@@ -29,7 +29,3 @@ add these lines:
 restart the server and set the service to be auto-loaded:
 - `sudo service mysql restart`
 - `sudo update-rc.d mysql defaults`
-
-
-==========================================
-NOW YOU CAN CONNECT USING YOU HOSY MACHINE
