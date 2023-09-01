@@ -55,3 +55,9 @@ logical operators to combine multiple conditions in a query:
 
 an index is a data structure that improves the speed of data retrieval operations on a collection:
 - `db.collection.createIndex({ field: [1 | -1] })`
+
+rename a collection:
+- `db.collection.renameCollection("newCollectionName")`
+
+rename a field in a document:
+- `db.collection.updateMany({}, { $rename: { "oldFieldName": "newFieldName" } })`
