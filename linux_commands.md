@@ -43,3 +43,6 @@
 - `chown`       -> change file owner and group
 - `chmod`       -> change file mode bits
 - `stat`        -> display file or file system status
+- `shred`       -> overwrite a file to hide its contents, and optionally delete it
+- `wget`        -> The non-intractive network downloadere
+- `curl`        -> transfer a URL
