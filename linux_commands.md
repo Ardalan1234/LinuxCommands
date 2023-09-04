@@ -52,6 +52,5 @@
 
 
 change your private IP address in Linux:
-
-- `sudo ifconfig <interface> <new_ip_address> netmask <subnet_mask>`
-- `sudo ip addr add <new_ip_address>/<subnet_mask> dev <interface>`
+- `sudo ifconfig eth0 inet <your_ip_address> netmask <your_netmask> broadcast <your_braodcast_ip>`
+- `wsl.exe --shutdown`
