@@ -46,3 +46,12 @@
 - `shred`       -> overwrite a file to hide its contents, and optionally delete it
 - `wget`        -> The non-intractive network downloadere
 - `curl`        -> transfer a URL
+
+
+#####################################################################################
+
+
+change your private IP address in Linux:
+
+- `sudo ifconfig <interface> <new_ip_address> netmask <subnet_mask>`
+- `sudo ip addr add <new_ip_address>/<subnet_mask> dev <interface>`
