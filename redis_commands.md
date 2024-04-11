@@ -74,4 +74,20 @@ To retrieve the element at a specific index in a list:
 To get the position of an element within a list:
 - `LPOS key element [RANK rank]`
 
+To set individual field-value pairs:
+- `HSET key field value [field value ...]`
 
+To retrieve the value of a specific field:
+- `HGET key value`
+
+To retrieve all field-value pairs in a hash:
+- `HGETALL key`
+
+To delete a field (and its associated value) from a hash:
+- `HDEL key field [field ...]`
+
+To retrieve all the field names (keys) of a hash:
+- `HKEYS key`
+
+To retrieve all the values of a hash:
+- `HVALS key`
